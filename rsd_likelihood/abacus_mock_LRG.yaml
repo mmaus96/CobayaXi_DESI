@@ -10,13 +10,13 @@ fs_sample_names:
 # has been cloned.  Otherwise, override these with the
 # full path.
 
-basedir: /pscratch/sd/m/mmaus/new_template/Cobaya_template/
+basedir: /pscratch/sd/m/mmaus/CobayaXi_DESI/
 
 fs_datfns: 
-- mock_data/LRG/pk/z0.800/Pk_mean.txt
+- mock_data/LRG/Xi_pre/xi_mean.txt
 
 # covfn: mock_data/LRG/covariances/cov_cut.txt
-covfn: mock_data/LRG/covariances/cov_mean.txt
+covfn: mock_data/LRG/covariances/xi_pre_cov_mean.txt
 
 fs_matMfns: 
 - mock_data/LRG/matrices/Mmat.txt
